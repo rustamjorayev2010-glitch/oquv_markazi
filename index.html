@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeStart</title>
+    <link rel="stylesheet" href="./script.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">Code <span>Start</span></a>
+
+        <nav class="nav" id="nav">
+            <a href="#features">Afzalliklari</a>
+            <a href="#courses">Kurslar</a>
+            <a href="#contact">Aloqa</a>
+        </nav>
+
+        <button class="burger" id="burger">☰</button>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Dasturlashni <span>noldan</span> o'rganish</h1>
+        <p>3 oyda birinchi saytingizni yarating</p>
+        <a href="#contact" class="btn">Ro'yxatdan o'tish</a>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+        <h2>Nega aynan biz?</h2>
+
+        <div class="cards">
+            <div class="card reveal">
+                <h3 class="counter" data-target="1200">0</h3>
+                <p>Bitiruvchilar</p>
+            </div>
+
+            <div class="card reveal">
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Tajribali ustozlar</p>
+            </div>
+
+            <div class="card reveal">
+                <h3 class="counter" data-target="98">0</h3>
+                <p>Mamnun o'quvchilar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section class="courses" id="courses">
+        <h2>Kurslarimiz</h2>
+
+        <div class="cards">
+            <div class="card reveal">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript</p>
+                <strong>500 000 so'm</strong>
+            </div>
+
+            <div class="card reveal">
+                <h3>Backend</h3>
+                <p>Python, FastAPI</p>
+                <strong>600 000 so'm</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2>Ro'yxatdan o'ting</h2>
+
+        <form id="form">
+            <input type="text" id="name" placeholder="Ismingiz">
+            <input type="tel" id="phone" placeholder="+998 77 501 5012">
+
+            <button type="submit" class="btn">Yuborish</button>
+
+            <p id="message"></p>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 CodeStart. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
